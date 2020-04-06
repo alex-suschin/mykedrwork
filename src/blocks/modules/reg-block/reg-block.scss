@@ -1,0 +1,41 @@
+.reg-block {
+    padding: 110px 0 124px 0;
+    background: url(../img/bg-reg.jpg) no-repeat center;
+    background-size: cover;
+    .title {
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 124%;
+        text-transform: none;
+        text-align: center;
+        color: #0F3267;
+    }
+}
+
+.reg-block-btn {
+    font-size: 0;
+    text-align: center;
+    padding: 22px 58px 0 0px;
+    img {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 22px;
+    }
+    .btn-blue {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin: -5px 0 0 0;
+    }
+    .btn-blue:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 71px;
+        left: -60px;
+        width: 92px;
+        height: 31px;
+        background: url(../img/arrow-green.png) no-repeat center;
+        background-size: cover;
+    }
+}
