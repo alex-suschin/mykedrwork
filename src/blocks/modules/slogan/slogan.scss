@@ -1,0 +1,80 @@
+.slogan {
+    padding: 203px 0 120px 0;
+    position: relative;
+    background: url(../img/slogan-bg.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 5;
+}
+
+.slogan:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 83, 137, 0.75);
+    z-index: -1;
+}
+
+.slogan__text {
+    font-family: $geometria;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 124%;
+    color: #FFFFFF;
+    width: 49%;
+    margin-bottom: 29px;
+}
+
+.slogan-desc {
+    font-family: $geometria;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 124%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.slogan-name {
+    font-family: $geometria;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+
+.slogan-podpis {
+    margin: 17px 0 0 168px;
+}
+
+.img-wrap {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrap>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slogan .img-wrap {
+    max-width: 878px;
+    width: 100%;
+    padding-bottom: 55.12%;
+}
+
+.slogan-man {
+    position: absolute;
+    right: -268px;
+    bottom: -120px;
+}

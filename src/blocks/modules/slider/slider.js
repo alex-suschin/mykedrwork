@@ -7,8 +7,9 @@ $(document).ready(function() {
         vertical: true,
         infinite: true,
         verticalSwiping: true,
-        adaptiveHeight: true,
-        // fade: true,
+        speed: 700,
+        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+        touchThreshold: 100,
         focusOnSelect: true
     });
 
