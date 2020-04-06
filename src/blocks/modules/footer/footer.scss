@@ -1,0 +1,36 @@
+.footer {
+    padding: 46px 0 42px 0;
+    p,
+    a {
+        display: block;
+        width: fit-content;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 160%;
+        color: #142E55;
+        margin-bottom: 0;
+    }
+    .phone {
+        margin: 4px 0 0 0;
+    }
+    .phone a {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 100%;
+        color: #142E55;
+        margin-bottom: 3px;
+    }
+    .phone span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0.16em;
+        color: #142E55;
+    }
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
