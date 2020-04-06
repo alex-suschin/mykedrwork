@@ -1,0 +1,38 @@
+.header {
+    padding: 73px 0 0 0;
+    height: 1080px;
+    background: url(../img/top-bg.jpg) no-repeat center;
+    background-size: cover;
+    box-sizing: border-box;
+    .title {
+        width: 60%;
+    }
+    .btn-blue {
+        margin-right: 6px;
+    }
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.phone a {
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    color: #2D5389;
+    margin-bottom: 3px;
+}
+
+.phone span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: 0.16em;
+    color: #2D5389;
+}
