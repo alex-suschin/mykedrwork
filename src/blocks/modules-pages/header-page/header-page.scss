@@ -1,0 +1,101 @@
+.header-vn {
+    padding: 28px 0 22px 0;
+    border: 1px solid #DBDFEA;
+}
+
+.header-vn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart {
+    display: block;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    background: url(../img/svg/cart-ico.svg) no-repeat center;
+    margin-right: 38px;
+    z-index: 1;
+    span {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        width: 19px;
+        height: 19px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: #48C8B7;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 130%;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+}
+
+.header-pers-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.avatar-profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+}
+
+.avatar-default {
+    background-color: #0063D7;
+    background-image: url(../img/svg/avatar-default.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 42%;
+}
+
+.name-profile {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #142E55;
+    margin-top: -3px;
+}
+
+.name-profile::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 3.5px;
+    background: url(../img/svg/arr-name.svg) no-repeat center;
+    position: absolute;
+    top: 6px;
+    right: -17px;
+}
+
+.box-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

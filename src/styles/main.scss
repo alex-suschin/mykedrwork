@@ -187,6 +187,14 @@ img {
     padding: 18px 0 19px 0;
 }
 
+main {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: start;
+    // align-items: flex-start;
+    padding: 70px 0 0 0;
+}
+
 @media screen and (max-width: 1330px) {
     html,
     body {
