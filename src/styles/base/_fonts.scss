@@ -13,3 +13,11 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Medium.eot');
+    src: url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Medium.woff2') format('woff2'), url('../fonts/Geometria-Medium.woff') format('woff'), url('../fonts/Geometria-Medium.ttf') format('truetype'), url('../fonts/Geometria-Medium.svg#../fonts/Geometria-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}

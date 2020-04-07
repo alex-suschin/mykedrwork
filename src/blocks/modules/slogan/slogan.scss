@@ -128,3 +128,59 @@
         margin: 17px 0 -93px 0;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .slogan-podpis {
+        width: 90px;
+        height: 77px;
+        margin: -8px 11px -93px 0;
+        float: right;
+    }
+    .slogan__text {
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 124%;
+        margin-bottom: 18px;
+    }
+    .slogan-desc {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 124%;
+        margin-bottom: 5px;
+    }
+    .slogan-name {
+        font-size: 18px;
+        line-height: 124%;
+    }
+    .slogan .img-wrap {
+        margin-left: 15px;
+        bottom: -61px;
+    }
+    .slogan {
+        padding: 64px 11px 61px 11px;
+    }
+    .slogan__text::before {
+        top: -39px;
+        left: 1px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .slogan .img-wrap {
+        position: relative;
+        right: initial;
+        width: 473px;
+        max-width: initial;
+        padding-bottom: 99.735%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .slogan .img-wrap {
+        position: relative;
+        right: initial;
+        width: 473px;
+        max-width: initial;
+        padding-bottom: 133.455%;
+    }
+}

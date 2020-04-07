@@ -54,6 +54,7 @@
     .reg-block-btn img {
         width: 129px;
         height: 27px;
+        margin-right: 10px;
     }
     .reg-block-btn .btn-blue {
         max-width: 149px;
@@ -63,10 +64,20 @@
     }
     .reg-block-btn .btn-blue:before {
         width: 82px;
+        left: -36px;
         top: 43px;
         height: 28px;
     }
     .reg-block-btn {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .reg-block {
+        padding: 50px 0 113.5px 0;
+    }
+    .reg-block .title {
+        margin-bottom: 25px;
     }
 }

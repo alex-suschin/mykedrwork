@@ -150,7 +150,7 @@
         font-size: 21px;
         line-height: 124%;
         font-weight: normal;
-        margin-bottom: 24px;
+        margin-bottom: 25px;
     }
     .exellent-box__right p {
         font-weight: normal;
@@ -159,16 +159,20 @@
     }
     .exellent-box__right .title::before {
         width: 52px;
-        top: -22px;
+        top: -24px;
     }
     .exellent-item {
         width: 100%;
-        margin-bottom: 46px;
+        margin-bottom: 48px;
+    }
+    .exellent-item__img {
+        margin-bottom: 13px;
     }
     .exellent-item__title {
         font-weight: 500;
         font-size: 22px;
         line-height: 130%;
+        margin-bottom: 9px;
     }
     .exellent-item__desc {
         font-weight: 300;
@@ -176,6 +180,9 @@
         line-height: 150%;
     }
     .exellent-box__right {
-        margin-bottom: 46px;
+        margin-bottom: 36px;
+    }
+    .exellent {
+        padding: 43px 10px 57px 16px;
     }
 }

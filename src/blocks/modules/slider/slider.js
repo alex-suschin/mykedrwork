@@ -10,7 +10,15 @@ $(document).ready(function() {
         speed: 700,
         cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
         touchThreshold: 100,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [{
+            breakpoint: 576,
+            settings: {
+                vertical: false,
+                verticalSwiping: false,
+                adaptiveHeight: true
+            }
+        }]
     });
 
 });

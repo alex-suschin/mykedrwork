@@ -51,7 +51,7 @@
         padding: 18px 0 0 0;
     }
     .header-top {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .title {
         font-size: 25px;
@@ -70,7 +70,7 @@
         .phone a {
             font-size: 15px;
             line-height: 100%;
-            margin-bottom: -8px;
+            margin-bottom: -10px;
         }
         .phone span {
             font-size: 7px;
@@ -82,6 +82,7 @@
             font-size: 21px;
             line-height: 149%;
             text-align: center;
+            margin-bottom: 12px;
         }
         .btn-blue,
         .btn-blue-light {
@@ -90,7 +91,21 @@
             font-size: 14px;
             line-height: 100%;
             margin: 0 auto;
+            padding: 17px 0 15px 0;
             margin-bottom: 11px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header {
+        background: url(../img/top-bg-mobile.jpg) no-repeat center right;
+        min-height: 846px;
+        height: auto;
+        background-size: 100%;
+        padding: 21px 9px 0 9px;
+        .phone {
+            margin: -2px 0 0 0;
         }
     }
 }
