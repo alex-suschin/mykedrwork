@@ -186,3 +186,19 @@ img {
     color: #2D5389;
     padding: 18px 0 19px 0;
 }
+
+@media screen and (max-width: 1330px) {
+    html,
+    body {
+        min-width: 320px;
+        width: 100%;
+    }
+    a:focus {
+        outline: none;
+    }
+    .container {
+        width: 100% !important;
+        max-width: 1250px;
+        padding: 0 10px;
+    }
+}

@@ -34,3 +34,37 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 760px) {
+    .footer-box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-links {
+        text-align: center;
+    }
+    .footer p,
+    .footer a {
+        margin: 0 auto;
+        margin-bottom: 3px;
+    }
+    .footer .phone {
+        margin: 4px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .footer .phone a {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 100%;
+        margin-bottom: -8px;
+    }
+    .footer .phone span {
+        font-weight: 500;
+        font-size: 7px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.22em;
+    }
+}

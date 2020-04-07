@@ -22,12 +22,24 @@
 
 .slogan__text {
     font-family: $geometria;
+    position: relative;
     font-weight: normal;
     font-size: 38px;
     line-height: 124%;
     color: #FFFFFF;
     width: 49%;
     margin-bottom: 29px;
+}
+
+.slogan__text::before {
+    content: '';
+    display: block;
+    width: 28.04px;
+    height: 22.7px;
+    background: url(../img/svg/qoute.svg) no-repeat center;
+    position: absolute;
+    top: -28px;
+    left: -27px;
 }
 
 .slogan-desc {
@@ -77,4 +89,42 @@
     position: absolute;
     right: -268px;
     bottom: -120px;
+}
+
+@media screen and (max-width: 1330px) {
+    .img-wrap>img {
+        object-fit: contain;
+    }
+    .slogan__text::before {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .slogan {
+        padding: 70px 0 70px 0;
+    }
+    .slogan__text {
+        width: 100%;
+    }
+    .slogan .img-wrap {
+        position: relative;
+        right: initial;
+        bottom: -70px;
+        max-width: 100%;
+        width: 100%;
+        padding-bottom: 78.12%;
+    }
+    .slogan-podpis {
+        margin: 17px 0 35px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slogan__text {
+        font-size: 28px;
+    }
+    .slogan-podpis {
+        margin: 17px 0 -93px 0;
+    }
 }
