@@ -1,0 +1,57 @@
+.cashback {
+    padding: 45px 0 44px 0;
+    border-bottom: 1px solid #DBDFEA;
+    .title-vn {
+        margin-bottom: 26px;
+    }
+}
+
+.cashback-box {
+    background: #FAFAFA;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 52px 26px 32px;
+    align-items: center;
+}
+
+.cashback-box__img {
+    position: relative;
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+
+.cashback-box__text {
+    max-width: 536px;
+    width: 100%;
+    margin: 15px 13px 0 0;
+    b {
+        display: block;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 130%;
+        color: #142E55;
+        margin-bottom: 10px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        color: #8B8EA1;
+    }
+}

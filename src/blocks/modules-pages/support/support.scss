@@ -1,0 +1,22 @@
+.support {
+    padding: 45px 0 99px 0;
+}
+
+.support-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    justify-content: center;
+    background-color: #FAFCFD;
+    background-image: url(../img/support-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 42px 61px 37px 61px;
+    .title-vn {
+        margin-bottom: 12px;
+    }
+    .desc-vn {
+        margin-bottom: 14px;
+    }
+}

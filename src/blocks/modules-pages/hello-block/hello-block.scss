@@ -1,0 +1,26 @@
+.hello-block {
+    padding: 0 0 20px 0;
+    .hello-block__title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        color: #8B8EA1;
+        text-transform: none;
+        margin-bottom: 19px;
+    }
+}
+
+.info-mail {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 23px 30px 24px 67px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #142E55;
+    background-image: url(../img/svg/info-ico.svg);
+    background-position: 31px center;
+    background-repeat: no-repeat;
+}
