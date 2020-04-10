@@ -18,12 +18,12 @@ $('.js-close-popup-law').click(function() {
     $('#popup-law-wrap').find('#popup-law').removeClass('popup-active');
 });
 
-// $(document).mouseup(function(e) {
-//     var container = $('.popup');
-//     if (container.hasClass('popup-active')) {
-//         if (container.has(e.target).length === 0) {
-//             $('.popup-wrap').removeClass('popup-active');
-//             $('.popup-wrap').find('.popup').removeClass('popup-active');
-//         }
-//     }
-// });
+$(document).mouseup(function(e) {
+    var container = $('.popup');
+    if (container.hasClass('popup-active')) {
+        if (container.has(e.target).length === 0) {
+            $('.popup-wrap').removeClass('popup-active');
+            $('.popup-wrap').find('.popup').removeClass('popup-active');
+        }
+    }
+});
