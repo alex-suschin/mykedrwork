@@ -5,3 +5,4 @@ import "../../blocks/modules-pages/articles/articles";
 import "../../blocks/modules-pages/header-page/header-page";
 import "../../blocks/modules-pages/header-page/header-page";
 import "../../blocks/modules-pages/register-form/register-form";
+import "../../blocks/modules-pages/info-profile/info-profile";

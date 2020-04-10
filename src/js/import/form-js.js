@@ -1,5 +1,5 @@
 setTimeout(function() {
-    $('input[type=radio], input[type=checkbox]').styler();
+    $('select, input[type=radio], input[type=checkbox]').styler();
 }, 100)
 
 
