@@ -87,9 +87,6 @@ input {
     transition: all 0.1s linear;
 }
 
-input:hover,
-input:focus {}
-
 ul {
     list-style: none;
     padding: 0;
@@ -155,8 +152,6 @@ img {
     display: table;
     clear: both;
 }
-
-.wrapper {}
 
 .container {
     max-width: 1250px;
