@@ -1,14 +1,30 @@
 .decors-cat-box {
-    padding: 0 0 0 0;
+    padding: 0 0 54px 0;
     .title-vn {
         margin-bottom: 24px;
     }
-    .shop-elem__item {
-        max-width: 285px;
-    }
-    .shop-elem__item--img {
-        height: 125px;
+    .decors-item__img {
+        position: relative;
         margin-bottom: 15px;
+        a.full {
+            position: absolute;
+            display: block;
+            width: 17px;
+            height: 17px;
+            right: 12px;
+            bottom: 13px;
+            background: url(../img/svg/full-ico.svg) no-repeat center;
+            z-index: 8;
+        }
+    }
+    .decors-item__name {
+        margin-bottom: 8px;
+    }
+    .decors-items {
+        flex-wrap: wrap;
+    }
+    .decors-item {
+        margin-bottom: 46px;
     }
 }
 
@@ -36,4 +52,8 @@
     a:last-child {
         margin-right: 0;
     }
+}
+
+.compensate-for-scrollbar {
+    margin-right: 0!important;
 }
