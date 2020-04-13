@@ -1,0 +1,102 @@
+.actions-vn-box {
+    padding: 0 0 0 0;
+    .desc-vn {
+        margin-bottom: 26px;
+    }
+}
+
+.actions-last {
+    min-height: 302px;
+    border-radius: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0 0 70px;
+    margin-bottom: 44px;
+    .btn-blue {
+        max-width: 185px;
+        padding: 13px 0 13px 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.actions-last-content {
+    width: 50%;
+}
+
+.actions-last__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #142E55;
+    margin-bottom: 14px;
+}
+
+.actions-last__desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #142E55;
+    margin-bottom: 25px;
+}
+
+.actions-slider {
+    border-top: 1px solid #DBDFEA;
+    border-bottom: 1px solid #DBDFEA;
+    padding: 45px 0 32px 0;
+    .actions-item {
+        outline: none;
+        margin: 0 23.5px;
+    }
+    .dots {
+        align-self: center;
+        list-style: none;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        display: -webkit-box;
+        display: flex;
+        margin: 18px 0 0 0;
+    }
+    .dots li {
+        margin: 0;
+        margin-right: 12px;
+    }
+    .dots li:last-child {
+        margin-right: 0;
+    }
+    .dots li::before {
+        content: '';
+        position: static;
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: #48C8B7;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
+        cursor: pointer;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    .dots li.slick-active::before {
+        width: 26px;
+        background: #214881;
+    }
+    .dots li button {
+        display: none;
+    }
+}
+
+.actions-slider.slick-dotted {
+    margin-bottom: 0;
+}

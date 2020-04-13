@@ -115,6 +115,14 @@ button {
     transition: all 0.1s linear;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #142E55;
+    margin-bottom: 16px;
+}
+
 .title {
     font-family: $geometria;
     font-weight: normal;

@@ -9,3 +9,4 @@ import "../../blocks/modules-pages/info-profile/info-profile";
 import "../../blocks/modules-pages/shop/shop";
 import "../../blocks/modules-pages/decors-cat/decors-cat";
 import "../../blocks/modules-pages/filter/filter";
+import "../../blocks/modules-pages/actions-vn/actions-vn";
