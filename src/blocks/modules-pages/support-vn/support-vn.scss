@@ -318,13 +318,14 @@ textarea {
         width: 100%;
         display: inline-block;
         vertical-align: top;
-        margin-right: 13px;
+        margin-right: 8px;
     }
-    label {
+    label span {
         font-weight: normal;
         font-size: 14px;
         line-height: 100%;
         color: #142E55;
+        cursor: pointer;
     }
 }
 
@@ -466,6 +467,14 @@ textarea {
 
 .history-request__item.active .btn-show-history-request:before {
     background: url(../img/svg/arr-req-white.svg) no-repeat center;
+}
+
+.history-request__item.active .btn-show-history-request:hover {
+    background: #fff;
+}
+
+.history-request__item.active .btn-show-history-request:hover::before {
+    background: url(../img/svg/arr-req-blue.svg) no-repeat center;
 }
 
 .message-item {

@@ -9,6 +9,11 @@ $('.support-tabs a').click(function() {
     $('#' + $(this).data('switch')).show();
 });
 
+$('.tabs-checkbox__item label').click(function() {
+    $('.history-request-wrap').find('.history-request').hide();
+    $('#' + $(this).data('switch')).show();
+});
+
 let fileVal = $('.jq-file__name').text();
 
 console.log(fileVal);
