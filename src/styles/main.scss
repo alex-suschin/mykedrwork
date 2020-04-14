@@ -104,6 +104,46 @@ ul li:before {
     left: 0;
 }
 
+ol {
+    list-style: none;
+    counter-reset: myCounter;
+}
+
+ol li {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #142E55;
+    padding-left: 16px;
+    margin-bottom: 25px;
+    text-align: left;
+    z-index: 5;
+}
+
+ol li:before {
+    content: "";
+    display: block;
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FCFCFC;
+    width: 26px;
+    height: 26px;
+    background: #0063D7;
+    position: absolute;
+    top: -2px;
+    left: -29px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
 button {
     border: none;
     outline: none;
