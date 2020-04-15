@@ -59,3 +59,27 @@
         width: 31%;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .decors-item__img {
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .decors-item__name {
+        font-size: 14px;
+    }
+    .decors-items {
+        flex-wrap: wrap;
+    }
+    .decors-item {
+        max-width: initial;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .lk-main .decors {
+        display: none;
+    }
+}

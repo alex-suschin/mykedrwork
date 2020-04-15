@@ -20,3 +20,22 @@
         margin-bottom: 14px;
     }
 }
+
+@media screen and (max-width: 675px) {
+    .support-box {
+        padding: 31px 34px 37px 34px;
+        background-image: url(../img/support-bg-mob.jpg);
+        background-size: cover;
+        height: 322px;
+        justify-content: start;
+    }
+    .support-box .desc-vn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .lk-main .support {
+        display: none;
+    }
+}

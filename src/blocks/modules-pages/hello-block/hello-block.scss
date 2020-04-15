@@ -24,3 +24,29 @@
     background-position: 31px center;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1820px) {
+    .info-mail {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 153%;
+    }
+    .hello-block__title {
+        line-height: 120%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hello-block .hello-block__title {
+        margin-bottom: 15px;
+    }
+    .info-mail {
+        padding: 17px 30px 17px 53px;
+        background-position: 22px center;
+        background-repeat: no-repeat;
+        background-size: 3.7%;
+    }
+    .hello-block {
+        padding: 0 0 25px 0;
+    }
+}

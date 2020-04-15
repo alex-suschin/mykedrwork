@@ -196,3 +196,16 @@
         padding: 0 10px;
     }
 }
+
+@media screen and (max-width: 675px) {
+    .last-article {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .lk-main .articles-title-box,
+    .lk-main .articles {
+        display: none;
+    }
+}

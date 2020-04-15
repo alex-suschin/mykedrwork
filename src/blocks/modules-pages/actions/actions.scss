@@ -58,3 +58,19 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 675px) {
+    .actions-item--img {
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .actions-item--title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .lk-main .actions {
+        display: none;
+    }
+}

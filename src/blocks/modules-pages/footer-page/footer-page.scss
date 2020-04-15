@@ -33,6 +33,10 @@
     }
 }
 
+.br-copyright {
+    display: none;
+}
+
 @media screen and (max-width: 1820px) {
     .footer-page {
         padding: 17px 25px 15px 25px;
@@ -57,5 +61,29 @@
     }
     .footer-page__links a {
         margin-bottom: 15px;
+    }
+    .footer-page__links p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .br-copyright {
+        display: block;
+    }
+    .footer-page {
+        align-items: start;
+    }
+    .footer-page__links {
+        align-items: start;
+    }
+    .copyright {
+        margin-bottom: 34px;
+    }
+    .footer-page__links a {
+        margin-bottom: 10px;
+    }
+    .footer-page__links p {
+        text-align: left;
     }
 }

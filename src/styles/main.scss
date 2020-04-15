@@ -376,46 +376,6 @@ aside {
     .content {
         width: 100%;
     }
-    .menu-title {
-        display: none;
-    }
-    .menu-lk {
-        position: absolute;
-        background: transparent;
-        top: 0;
-        left: -10px;
-        width: 96vw;
-        display: block;
-        height: calc(100vh - 84px);
-        z-index: 20;
-        transform: translate(-100vw, 0px);
-        transition: .3s;
-        transition-timing-function: ease-out;
-        overflow: auto;
-        background: #FFFFFF;
-        padding: 56px 0 0 30px;
-        box-sizing: border-box;
-        box-shadow: 22px 49px 94px rgba(0, 0, 0, 0.09);
-        -webkit-transform: translate(-100vw, 0px);
-        -moz-transform: translate(-100vw, 0px);
-        -ms-transform: translate(-100vw, 0px);
-        -o-transform: translate(-100vw, 0px);
-    }
-    .menu-lk:before {
-        content: 'Меню';
-        display: block;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 100%;
-        text-transform: uppercase;
-        color: #8B8EA1;
-        position: absolute;
-        top: 24px;
-        left: 30px;
-    }
-    .menu-lk.on-act {
-        transform: translate(0vw, 0px);
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -424,5 +384,23 @@ aside {
     }
     .desc-vn {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .title-vn {
+        font-size: 24px;
+    }
+    .desc-vn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .lk-main {
+        padding: 0 6px;
+    }
+    .main-box {
+        padding: 26px 0 0 0;
     }
 }

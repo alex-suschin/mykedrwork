@@ -83,3 +83,56 @@
 .menu-ico8 a {
     background-image: url(../img/svg/menu-ico8.svg);
 }
+
+@media screen and (max-width: 992px) {
+    .menu-title {
+        display: none;
+    }
+    .menu-lk {
+        position: absolute;
+        background: transparent;
+        top: 0;
+        left: -10px;
+        width: 90vw;
+        display: block;
+        height: calc(100vh - 84px);
+        z-index: 20;
+        transform: translate(-100vw, 0px);
+        transition: .3s;
+        transition-timing-function: ease-out;
+        overflow: auto;
+        background: #FFFFFF;
+        padding: 57px 0 0 24px;
+        box-sizing: border-box;
+        box-shadow: 22px 49px 94px rgba(0, 0, 0, 0.09);
+        -webkit-transform: translate(-100vw, 0px);
+        -moz-transform: translate(-100vw, 0px);
+        -ms-transform: translate(-100vw, 0px);
+        -o-transform: translate(-100vw, 0px);
+    }
+    .menu-lk:before {
+        content: 'Меню';
+        display: block;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #8B8EA1;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+    }
+    .menu-lk.on-act {
+        transform: translate(0vw, 0px);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .menu-lk {
+        left: -16px;
+        padding: 57px 0 0 29px;
+    }
+    .menu-lk:before {
+        left: 29px;
+    }
+}
