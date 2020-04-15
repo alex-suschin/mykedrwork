@@ -48,3 +48,13 @@
     line-height: 134%;
     color: #142E55;
 }
+
+@media screen and (max-width: 1260px) {
+    .actions-item {
+        max-width: initial;
+        width: 48%;
+    }
+    .actions-item--title {
+        font-size: 14px;
+    }
+}

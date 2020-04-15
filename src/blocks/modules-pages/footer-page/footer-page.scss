@@ -32,3 +32,30 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 1820px) {
+    .footer-page {
+        padding: 17px 25px 15px 25px;
+    }
+    .footer-page__links {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .footer-page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-page__links {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copyright {
+        margin-bottom: 20px;
+    }
+    .footer-page__links a {
+        margin-bottom: 15px;
+    }
+}

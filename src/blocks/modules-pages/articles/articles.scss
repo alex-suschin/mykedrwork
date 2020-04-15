@@ -167,3 +167,32 @@
     background: url(../img/svg/clock-green-ico.svg) no-repeat left center;
     padding: 0 0 0 21px;
 }
+
+@media screen and (max-width: 1260px) {
+    .last-article {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .last-article__content {
+        background: #94EBDF;
+        padding: 15px 20px 20px 15px;
+    }
+    .last-article-time {
+        margin-bottom: 10px;
+    }
+    .last-article-title {
+        font-size: 16px;
+    }
+    .articles-slider__item {
+        max-width: 352px;
+        width: 100%;
+    }
+    .articles-slider {
+        margin: 0 -10px;
+    }
+    .articles-slider .slick-list {
+        padding: 0 10px;
+    }
+}

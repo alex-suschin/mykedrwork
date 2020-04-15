@@ -55,3 +55,16 @@
         color: #8B8EA1;
     }
 }
+
+@media screen and (max-width: 1260px) {
+    .cashback-box {
+        padding: 25px 15px 26px 15px;
+    }
+    .cashback-box__img {
+        flex-shrink: 0;
+        margin-right: 15px;
+    }
+    .cashback-box__text b {
+        font-size: 18px;
+    }
+}

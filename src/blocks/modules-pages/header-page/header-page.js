@@ -19,3 +19,15 @@ $('.js-cart').click(function() {
     }
 
 });
+
+
+$('.hamburger').click(function() {
+    $(this).toggleClass('on-act');
+    if ($(this).hasClass('on-act')) {
+        $('ul.menu-lk').addClass('on-act');
+        $('body').addClass('noscroll');
+    } else {
+        $('ul.menu-lk').removeClass('on-act');
+        $('body').removeClass('noscroll');
+    }
+});
