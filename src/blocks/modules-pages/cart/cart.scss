@@ -165,3 +165,127 @@
     padding: 14px 0 13px 0;
     color: #142E55;
 }
+
+@media screen and (max-width: 1170px) {
+    .cart-list__item {
+        align-items: center;
+    }
+    .cart-list__item--title {
+        width: 43%;
+        padding: 0 0 0 0;
+    }
+    .cart-list__item--col {
+        margin: 17px 0 0 0;
+    }
+    .cart-list__item--price {
+        margin: 0 0 0 0;
+    }
+    .delete-item {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .cart-list__item--title {
+        width: 35%;
+        font-size: 14px;
+    }
+    .cart-list__item--price {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .cart-list__item {
+        flex-wrap: wrap;
+    }
+    .cart-list__item--img {
+        max-width: initial;
+        width: 23%;
+    }
+    .cart-list__item--title {
+        width: 77%;
+    }
+    .cart-list__item--col {
+        margin: 17px 0 0 0;
+        width: 22%;
+        text-align: center;
+    }
+    .cart-list__item--price {
+        width: 71%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cart-list__item--img {
+        width: 28%;
+    }
+    .cart-list__item--title {
+        width: 72%;
+    }
+    .cart-list__item--col {
+        width: 27%;
+    }
+    .cart-list__item--price {
+        width: 65%;
+    }
+    .cart-form__item {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .total-price {
+        margin-top: 10px;
+    }
+    .submit-green {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .cart-box .title-vn {
+        margin-bottom: 5px;
+    }
+    .cart-list__item--img {
+        width: 110px;
+    }
+    .cart-list__item--title {
+        width: 67%;
+        text-align: left;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 134%;
+    }
+    .cart-list__item--col {
+        width: 100px;
+        margin: 21px 0 0 0;
+    }
+    .cart-list__item--price {
+        width: 65%;
+        text-align: right;
+        margin: 8px 0 0 0;
+        padding: 0 13px 0 0;
+    }
+    .cart-list__item {
+        position: relative;
+        padding: 28px 0 11px 0;
+    }
+    .delete-item {
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .cart-list {
+        margin: 0 0 46px 0;
+    }
+    .cart-form__text b {
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .cart-list__item--title {
+        width: 55%;
+    }
+}

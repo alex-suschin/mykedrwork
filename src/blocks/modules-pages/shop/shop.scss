@@ -186,6 +186,14 @@
     opacity: 1;
 }
 
+.popup form input:disabled {
+    color: #DDDDDD;
+}
+
+.popup form label.disabled {
+    color: #DDDDDD;
+}
+
 @media screen and (max-width: 1250px) {
     .shop-tabs a {
         padding: 0 0 15px 0;
