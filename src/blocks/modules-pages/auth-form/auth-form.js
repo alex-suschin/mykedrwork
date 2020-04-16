@@ -59,7 +59,7 @@
                 console.log(sizeEmpty);
                 // Вешаем условие-тригер на кнопку отправки формы
                 if (sizeEmpty > 0) {
-                    btn.attr('disabled')
+                    btn.attr('disabled', 'disabled');
                 } else {
                     btn.removeAttr('disabled')
                 }
