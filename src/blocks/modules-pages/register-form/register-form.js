@@ -60,7 +60,8 @@
                 console.log(sizeEmpty);
                 console.log(checkFlag);
                 // Вешаем условие-тригер на кнопку отправки формы
-                if (sizeEmpty > 0 && checkFlag != true) {
+
+                if (sizeEmpty > 0 && checkFlag === false) {
                     btn.attr('disabled', 'disabled');
                 } else {
                     btn.removeAttr('disabled')

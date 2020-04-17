@@ -14,21 +14,26 @@ $('.tabs-checkbox__item label').click(function() {
     $('#' + $(this).data('switch')).show();
 });
 
-let fileVal = $('.jq-file__name').text();
-
-console.log(fileVal);
-
-if (fileVal != null) {
-    $('.remove-val').show();
-} else {
-    $('.remove-val').hide();
-}
+setInterval(function() {
+    let fileTag = $('.jq-file__name');
 
 
-// $('.remove-val').click(function() {
-//     console.log(fileVal);
-//     fileVal.text('');
-// });
+    if (fileTag.html() == "") {
+        $('.remove-val').hide();
+    } else {
+        $('.remove-val').show();
+    }
+
+    $('.remove-val').click(function() {
+        fileTag.html('');
+    });
+}, 500);
+
+
+
+
+
+
 
 
 $('.btn-show-history-request').click(function() {
