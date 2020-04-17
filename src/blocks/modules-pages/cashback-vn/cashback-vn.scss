@@ -205,3 +205,119 @@
 .canceled span::before {
     background: #DC3545;
 }
+
+@media screen and (max-width: 910px) {
+    .cashback-form-box {
+        flex-direction: column;
+    }
+    .cashback-form-box div {
+        width: 100%;
+    }
+    .cashback-form-bottom .btn-blue {
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cashback-table--th:first-child,
+    .cashback-table--td:first-child {
+        padding-left: 7px;
+    }
+    .cashback-table--th:last-child,
+    .cashback-table--td:last-child {
+        padding-right: 7px;
+    }
+    .cashback-table-box__title {
+        padding-left: 10px;
+    }
+    .cashback-table--th,
+    .cashback-table--td {
+        font-size: 10px;
+        padding: 12px 3px;
+    }
+    .cashback-table--td:first-child {
+        width: 8.5%;
+    }
+    .cashback-table--td:last-child {
+        width: 20%;
+    }
+    .cashback-table--td span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cashback-form {
+        padding: 0 0 0 0;
+        margin: 0 0 50px 0;
+        border: none;
+    }
+    .cashback-form input {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
+    .cashback-ol {
+        padding: 15px 24px 12px 12px;
+        margin-bottom: 43px;
+    }
+    .cashback-form-bottom {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .cashback-form-bottom p {
+        margin-bottom: 20px;
+    }
+    .cashback-vn-box .title-vn {
+        margin-bottom: 12px;
+    }
+    ol li {
+        line-height: 134%;
+        margin-bottom: 27px;
+    }
+    ol li:before {
+        top: 1px;
+        left: -30px;
+    }
+    .cashback-form-box label {
+        margin-bottom: 9px;
+    }
+    .cashback-form-box__left {
+        margin-bottom: 8px;
+    }
+    .cashback-form-bottom {
+        margin: 0;
+    }
+    .cashback-table-box {
+        padding: 40px 0 0 0;
+    }
+    .cashback-table-box__title {
+        padding-left: 19px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .cashback-table--th {
+        text-transform: none;
+    }
+    .cashback-table--td span {
+        padding: 2px 0 0 6px;
+    }
+    .cashback-table--td:last-child {
+        width: 30%;
+    }
+    .cashback-table--td:first-child {
+        width: 10.5%;
+    }
+    .cashback-table--td:nth-child(3) {
+        width: 19.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cashback-table--th,
+    .cashback-table--td,
+    .cashback-table--td span {
+        font-size: 9px;
+    }
+}
