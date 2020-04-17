@@ -11,7 +11,18 @@ $(document).ready(function() {
         dotsClass: 'dots',
         cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
         touchThreshold: 100,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [{
+                breakpoint: 1261,
+                settings: {
+                    variableWidth: false
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: "unslick"
+            }
+        ]
     });
 
 });

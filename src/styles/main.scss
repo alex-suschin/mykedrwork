@@ -388,6 +388,12 @@ aside {
         width: 100%;
         padding: 0 6px;
     }
+    h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {

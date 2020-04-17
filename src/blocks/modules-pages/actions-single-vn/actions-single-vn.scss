@@ -21,3 +21,17 @@
         margin-bottom: 25px;
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .actions-single-content img {
+        min-height: initial;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .actions-single-content p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 130%;
+    }
+}
