@@ -12,3 +12,5 @@ import "../../blocks/modules-pages/filter/filter";
 import "../../blocks/modules-pages/actions-vn/actions-vn";
 import "../../blocks/modules-pages/support-vn/support-vn";
 import "../../blocks/modules-pages/auth-form/auth-form";
+import "../../blocks/modules-pages/actions-vn/actions-vn";
+import "../../blocks/modules-pages/articles-vn/articles-vn";

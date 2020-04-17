@@ -23,6 +23,15 @@ $(document).ready(function() {
                     slidesToShow: 1,
                     centerMode: true
                 }
+            },
+            {
+                breakpoint: 476,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    variableWidth: false,
+                    focusOnSelect: true
+                }
             }
         ]
     });

@@ -175,3 +175,177 @@
         -o-transform: translateX(11px);
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .articles-box-items {
+        align-items: center;
+        padding: 45px 0 45px 0;
+    }
+    .articles-box-item {
+        max-width: initial;
+        width: 48%;
+    }
+    .articles-box-items__right .articles-box-item {
+        width: 100%;
+        padding: 27px 15px 26px 15px;
+        margin-bottom: 25px;
+    }
+    .articles-box-items__right .articles-box-item:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .articles-box-item:hover .articles-box-item-img {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .articles-box-item:active .articles-box-item-img {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+    }
+    .articles-box-items__right .read-more:hover::after {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    .articles-box-items__right .read-more:active::after {
+        transform: translateX(11px);
+        -webkit-transform: translateX(11px);
+        -moz-transform: translateX(11px);
+        -ms-transform: translateX(11px);
+        -o-transform: translateX(11px);
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .articles-box-items {
+        display: block;
+    }
+    .articles-box-item {
+        max-width: 261px;
+        width: 100%;
+        margin: 0 8px;
+        outline: none;
+    }
+    .articles-box-items {
+        margin: 0 -16px;
+    }
+    .articles-box-items__left {
+        display: block;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .articles-box-items__left .slick-list {
+        padding: 0 16px;
+    }
+    .articles-box-items__left.slick-initialized .slick-slide {
+        display: flex;
+        width: 100%;
+    }
+    .articles-box-items__right {
+        width: 100%;
+        padding: 30px 16px 0 16px;
+        border-top: 1px solid #DBDFEA;
+    }
+    .articles-box-items__right .articles-box-item {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    .articles-vn-box .last-article,
+    .last-article {
+        margin-bottom: 0;
+        border-radius: 14px 14px 0 0;
+        -webkit-border-radius: 14px 14px 0 0;
+        -moz-border-radius: 14px 14px 0 0;
+        -ms-border-radius: 14px 14px 0 0;
+        -o-border-radius: 14px 14px 0 0;
+        height: 171px;
+    }
+    .last-article__content {
+        max-width: 100%;
+        border-radius: 0 0 14px 14px;
+        -webkit-border-radius: 0 0 14px 14px;
+        -moz-border-radius: 0 0 14px 14px;
+        -ms-border-radius: 0 0 14px 14px;
+        -o-border-radius: 0 0 14px 14px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .articles-slider__item {
+        max-width: initial;
+        width: 100%;
+        margin: 0 8px;
+    }
+    .articles-vn-box .articles-slider .slick-list {
+        padding: 0 8px;
+    }
+    .articles-vn-box .title-vn {
+        margin-bottom: 11px;
+    }
+    .articles-vn-box .desc-vn {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 130%;
+        margin-bottom: 21px;
+    }
+    .last-article__content {
+        padding: 30px 28px 26px 28px;
+    }
+    .last-article-time {
+        padding: 0 0 0 18px;
+        margin-bottom: 17px;
+    }
+    .last-article-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .last-article-desc {
+        margin-bottom: 6px;
+    }
+    .last-article__content a::after {
+        right: -16px;
+    }
+    .articles-box-items {
+        padding: 30px 0 28px 0;
+    }
+    .articles-box-items__right .articles-box-item {
+        padding: 26px 29px 27px 29px;
+    }
+    .articles-vn-box .articles-slider {
+        padding: 30px 0 26px 0;
+        border-bottom: 1px solid #DBDFEA;
+        margin-bottom: 30px;
+    }
+    .articles-slider .dots {
+        margin: 18px 0 0 0;
+    }
+    .support {
+        padding: 0 0 99px 0;
+    }
+    .support-box .desc-vn {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 130%;
+        width: 75%;
+    }
+    .support-box .btn-white {
+        max-width: 135px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        padding: 9px 0 9px 0;
+    }
+}
