@@ -43,7 +43,7 @@
             // Функция подсветки незаполненных полей
 
             function lightEmpty() {
-                form.find('.empty_field').css({ 'border-color': '#d8512d' });
+                form.find('.empty_field').css({ 'border-color': '#DC3545' });
                 // Через полсекунды удаляем подсветку
                 setTimeout(function() {
                     form.find('.empty_field').removeAttr('style');

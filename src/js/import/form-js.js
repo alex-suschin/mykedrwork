@@ -3,18 +3,18 @@ setTimeout(function() {
 }, 100)
 
 
-function checkParams() {
-    var region = $('#region').val();
-    var city = $('#city').val();
-    var name = $('#name').val();
-    var mail = $('#mail').val();
+// function checkParams() {
+//     var region = $('#region').val();
+//     var city = $('#city').val();
+//     var name = $('#name').val();
+//     var mail = $('#mail').val();
 
-    if (region.length != 0 && city.length != 0 && name.length != 0 && mail.length != 0) {
-        $('#submit').removeAttr('disabled');
-    } else {
-        $('#submit').attr('disabled', 'disabled');
-    }
-}
+//     if (region.length != 0 && city.length != 0 && name.length != 0 && mail.length != 0) {
+//         $('#submit').removeAttr('disabled');
+//     } else {
+//         $('#submit').attr('disabled', 'disabled');
+//     }
+// }
 
 $('input[type=tel]').bind("change keyup input click", function() {
     if (this.value.match(/[^\+0-9]/g)) {

@@ -79,3 +79,108 @@ input[type=search] {
 .submit-filter {
     max-width: 140px;
 }
+
+.filter-show-hide {
+    display: none;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #142E55;
+    padding: 14px 0 14px 0;
+    text-align: center;
+    background-image: url(../img/svg/setting-ico.svg);
+    background-repeat: no-repeat;
+    background-position: 68% center;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    margin-bottom: 28px;
+}
+
+@media screen and (max-width: 992px) {
+    form.filter {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+    .search-box {
+        flex-shrink: 0;
+        width: 100%;
+    }
+    .filter-item {
+        width: 33%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .submit-filter {
+        max-width: 100%;
+        flex-shrink: 0;
+    }
+    .filter-item label {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .decors-cat-box .decors-item {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .filter-box {
+        margin-bottom: 28px;
+    }
+    .filter-show-hide {
+        display: block;
+    }
+    .decors-cat-tabs {
+        margin-bottom: 25px;
+    }
+    form.filter {
+        display: none;
+    }
+    .decors-cat-box .decors-item {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .decors-cat-box .decors-item__img {
+        height: 125px;
+    }
+    .decors-cat-box .decors-item__name {
+        font-size: 16px;
+    }
+    .filter-item {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 26px;
+    }
+    form.filter {
+        flex-direction: column;
+        align-items: start;
+        padding: 22px 0 0 0;
+    }
+    .filter-item label {
+        margin-bottom: 14px;
+    }
+    .submit-filter {
+        max-width: 140px;
+    }
+    .filter-show-hide.active {
+        background-image: url(../img/svg/close-filter-ico.svg);
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .filter-show-hide {
+        padding: 14px 27px 14px 0;
+        text-align: center;
+    }
+}

@@ -43,7 +43,7 @@
             // Функция подсветки незаполненных полей
 
             function lightEmpty() {
-                form.find('.empty_field').css({ 'border-color': '#d8512d' });
+                form.find('.empty_field').css({ 'border-color': '#DC3545' });
                 // Через полсекунды удаляем подсветку
                 setTimeout(function() {
                     form.find('.empty_field').removeAttr('style');
@@ -56,9 +56,11 @@
                 checkInput();
                 // Считаем к-во незаполненных полей
                 var sizeEmpty = form.find('.empty_field').length;
+                var checkFlag = form.find('#agree').prop("checked");
                 console.log(sizeEmpty);
+                console.log(checkFlag);
                 // Вешаем условие-тригер на кнопку отправки формы
-                if (sizeEmpty > 0) {
+                if (sizeEmpty > 0 && checkFlag != true) {
                     btn.attr('disabled', 'disabled');
                 } else {
                     btn.removeAttr('disabled')
