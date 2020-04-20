@@ -14,14 +14,30 @@ $('.tabs-checkbox__item label').click(function() {
     $('#' + $(this).data('switch')).show();
 });
 
+// setInterval(function() {
+//     let fileTag = $('.jq-file');
+
+
+//     if (fileTag.hasClass('changed')) {
+//         fileTag.parents('.file').children('.remove-val').show();
+//     } else {
+//         fileTag.parents('.file').children('.remove-val').hide();
+//     }
+
+//     $('.remove-val').click(function() {
+//         $('.jq-file__name').html('');
+//     });
+// }, 500);
+
+
 setInterval(function() {
     let fileTag = $('.jq-file__name');
 
 
     if (fileTag.html() == "") {
-        $('.remove-val').hide();
+        fileTag.parents('.changed').siblings('.remove-val').hide(1);
     } else {
-        $('.remove-val').show();
+        fileTag.parents('.changed').siblings('.remove-val').show(1);
     }
 
     $('.remove-val').click(function() {

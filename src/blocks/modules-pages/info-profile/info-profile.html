@@ -25,7 +25,7 @@
             <div class="table-info--line">
                 <span>Имя</span>
                 <b>Иван</b>
-                <a class="arr-popup js-arr-popup-pers" href="javascript: void(0);"></a>
+                <i class="non-edit"></i>
             </div>
             <div class="table-info--line">
                 <span>Пол</span>
@@ -40,7 +40,7 @@
             <div class="table-info--line">
                 <span>Телефон</span>
                 <b>+79001234567</b>
-                <a class="arr-popup js-arr-popup-pers" href="javascript: void(0);"></a>
+                <i class="non-edit"></i>
             </div>
             <div class="table-info--line">
                 <span>Дата рождения</span>
@@ -116,7 +116,7 @@
 <div class="popup-wrap" id="popup-law-wrap">
     <div class="popup" id="popup-law">
         <div class="title-popup">Редактировать профиль</div>
-        <form action="">
+        <form action="" method="post">
             <div class="form-box">
                 <div class="popup-form-item">
                     <label for="">Должность</label>
@@ -155,6 +155,7 @@
                     <input type="text" value="123456789">
                 </div>
             </div>
+            <a href="#" class="btn-add-shop">Добавить магазин</a>
             <div class="popup-btns">
                 <button type="submit" class="submit" disabled>Сохранить</button>
                 <a href="javascript: void(0);" class="js-close-popup-law">Отменить</a>
@@ -168,7 +169,7 @@
 <div class="popup-wrap" id="popup-pers-wrap">
     <div class="popup" id="popup-pers">
         <div class="title-popup">Редактировать профиль</div>
-        <form action="">
+        <form action="" method="post">
             <div class="form-box">
                 <div class="popup-form-item">
                     <label for="">Фамилия</label>
