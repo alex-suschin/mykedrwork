@@ -237,6 +237,9 @@
 }
 
 @media screen and (max-width: 575px) {
+    .slider__item-text:after {
+        content: none;
+    }
     .slider.slick-initialized .slick-slide {
         display: flex;
         flex-direction: column-reverse;
