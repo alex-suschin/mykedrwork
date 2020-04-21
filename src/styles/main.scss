@@ -412,6 +412,12 @@ aside {
     }
 }
 
+@media screen and (max-width: 575px) {
+    main {
+        padding: 81px 0 0 0;
+    }
+}
+
 @media screen and (max-width: 475px) {
     .img-404 {
         max-width: 300px;

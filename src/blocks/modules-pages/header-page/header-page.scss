@@ -405,6 +405,14 @@
 }
 
 @media screen and (max-width: 575px) {
+    .header-vn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: #fff;
+        z-index: 999;
+    }
     .cart-dropdown {
         left: -100%;
     }

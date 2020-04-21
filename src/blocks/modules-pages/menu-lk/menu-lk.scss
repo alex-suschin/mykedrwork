@@ -129,6 +129,14 @@
 
 @media screen and (max-width: 470px) {
     .menu-lk {
+        position: fixed;
+        top: 81px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .menu-lk {
         left: -16px;
         padding: 57px 0 0 29px;
     }
