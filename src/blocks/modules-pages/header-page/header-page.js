@@ -5,7 +5,7 @@ $('.js-name-profile').click(function() {
         $('.cart-dropdown').hide(300);
         $('.cart').removeClass('active');
     } else {
-        $(this).removeClass('active');
+        $(this).addClass('active');
         $(this).siblings('.box-profile__dropdown').hide(300);
     }
 
@@ -22,6 +22,24 @@ $('.js-cart').click(function() {
         $(this).children('.cart-dropdown').hide(300);
     }
 
+});
+
+
+$(document).mouseup(function(e) {
+    var containerBoxProfile = $('.box-profile__dropdown');
+    if (containerBoxProfile.has(e.target).length === 0) {
+        $('.avatar-profile').removeClass('active');
+        $('.name-profile').removeClass('active');
+        $('.box-profile__dropdown').hide(300);
+    }
+});
+
+$(document).mouseup(function(w) {
+    var containerCart = $('.cart-dropdown');
+    if (containerCart.has(w.target).length === 0) {
+        $('.cart').removeClass('active');
+        $('.cart-dropdown').hide(300);
+    }
 });
 
 
