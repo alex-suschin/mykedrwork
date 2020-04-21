@@ -1,7 +1,5 @@
 $base-font: 'Montserrat',
 sans-serif;
-$geometria: 'Geometria',
-sans-serif;
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "helpers/functions";
@@ -164,10 +162,10 @@ h1 {
 }
 
 .title {
-    font-family: $geometria;
+    font-family: $base-font;
     font-weight: normal;
     font-size: 35px;
-    line-height: 149%;
+    line-height: 150%;
     text-transform: uppercase;
     color: #0E3267;
     margin-bottom: 16px;

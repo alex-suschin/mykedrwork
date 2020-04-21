@@ -21,7 +21,6 @@
 }
 
 .slogan__text {
-    font-family: $geometria;
     position: relative;
     font-weight: normal;
     font-size: 38px;
@@ -43,7 +42,6 @@
 }
 
 .slogan-desc {
-    font-family: $geometria;
     font-style: italic;
     font-weight: 300;
     font-size: 13px;
@@ -53,7 +51,6 @@
 }
 
 .slogan-name {
-    font-family: $geometria;
     font-weight: normal;
     font-size: 21px;
     line-height: 124%;
@@ -138,15 +135,15 @@
     }
     .slogan__text {
         font-weight: normal;
-        font-size: 21px;
-        line-height: 124%;
-        margin-bottom: 18px;
+        font-size: 20px;
+        line-height: 120%;
+        margin-bottom: 21px;
     }
     .slogan-desc {
         font-weight: 300;
         font-size: 12px;
         line-height: 124%;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .slogan-name {
         font-size: 18px;
@@ -157,10 +154,10 @@
         bottom: -61px;
     }
     .slogan {
-        padding: 64px 11px 61px 11px;
+        padding: 66px 11px 61px 11px;
     }
     .slogan__text::before {
-        top: -39px;
+        top: -41px;
         left: 1px;
     }
 }

@@ -4,31 +4,38 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        vertical: true,
-        infinite: true,
+        fade: true,
+        infinite: false,
         swipeToSlide: true,
-        verticalSwiping: true,
-        speed: 700,
-        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
         touchThreshold: 100,
+        speed: 900,
+        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
         focusOnSelect: true,
-        responsive: [{
-                breakpoint: 769,
-                settings: {
-                    adaptiveHeight: false,
-                    focusOnSelect: true
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    vertical: false,
-                    swipeToSlide: true,
-                    verticalSwiping: false,
-                    adaptiveHeight: true
-                }
-            }
-        ]
+        asNavFor: '.slider-img'
     });
 
+    $('.slider-img').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        infinite: false,
+        fade: true,
+        speed: 900,
+        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+        swipeToSlide: true,
+        touchThreshold: 100,
+        focusOnSelect: true,
+        asNavFor: '.slider',
+        responsive: [{
+            breakpoint: 575,
+            settings: {
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                focusOnSelect: true
+            }
+        }]
+    });
 });
