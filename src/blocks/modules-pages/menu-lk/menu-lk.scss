@@ -95,8 +95,8 @@
         left: -10px;
         width: 90vw;
         display: block;
-        height: calc(100vh - 84px);
-        z-index: 20;
+        height: calc(100vh - 81px);
+        z-index: 30;
         transform: translate(-100vw, 0px);
         transition: .3s;
         transition-timing-function: ease-out;
@@ -130,8 +130,9 @@
 @media screen and (max-width: 470px) {
     .menu-lk {
         position: fixed;
-        top: 81px;
+        top: 82px;
         left: 0;
+        height: calc(100vh - 82px);
     }
 }
 
