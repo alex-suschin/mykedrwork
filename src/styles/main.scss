@@ -257,6 +257,10 @@ img {
     color: #fff;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 .main-box {
     display: flex;
     flex-direction: row;
@@ -345,6 +349,13 @@ aside {
 
 .noscroll {
     overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1330px) {
