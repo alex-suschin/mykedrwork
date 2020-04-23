@@ -363,7 +363,7 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 29px 71px 39px 42px;
+    padding: 34px 71px 34px 42px;
 }
 
 .history-request__item-hide {
@@ -550,6 +550,10 @@ textarea {
     .new-request-form__item-bottom {
         margin: -10px 0 0 0;
     }
+}
+
+.js-btn-show-info-quest {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1250px) {
