@@ -1,5 +1,6 @@
 $('.js-btn-show-info-quest').click(function() {
     $(this).parents('.quest-item').toggleClass('active');
+    $(this).siblings('.quest-item-hide').slideToggle(300);
 });
 
 $('.support-tabs a').click(function() {
@@ -54,4 +55,5 @@ setInterval(function() {
 
 $('.btn-show-history-request').click(function() {
     $(this).parents('.history-request-cell').parents('.history-request__item-show').parents('.history-request__item').toggleClass('active');
+    $(this).parents('.history-request__item').find('.history-request__item-hide').slideToggle(300);
 });
