@@ -253,7 +253,8 @@
 
 @media screen and (max-width: 1330px) {
     .slider {
-        margin: 0 80px 0 80px;
+        margin: 0 0 0 0;
+        max-width: initial;
     }
     .slider-img {
         left: 195px;
@@ -264,9 +265,16 @@
     }
 }
 
+@media screen and (max-width: 1260px) {
+    .slider {
+        margin: 0 20px;
+        width: initial;
+    }
+}
+
 @media screen and (max-width: 1130px) {
     .slider {
-        margin: 0 30px 0 30px;
+        margin: 0 20px 0 20px;
     }
     .slider-img {
         max-width: 700px;
@@ -282,8 +290,8 @@
 
 @media screen and (max-width: 992px) {
     .slider {
-        max-width: 96%;
-        margin: 0 15px 0 15px;
+        max-width: initial;
+        margin: 0 0;
     }
     .slider .slick-dots {
         height: 100%;

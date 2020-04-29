@@ -140,6 +140,25 @@ $(document).mouseup(function(i) {
 
 $(document).ready(function() {
 
+    $(window).on('load resize', function() {
+        var width = $(window).width();
+        if (width > '992') {
+
+            setTimeout(function() {
+                $('.menu-lk').removeClass('mobile-menu-lk-styles');
+            }, 300);
+        }
+
+
+        if (width < '993') {
+
+            setTimeout(function() {
+                $('.menu-lk').addClass('mobile-menu-lk-styles');
+            }, 300);
+        }
+    });
+
+
     // only small screens
     if ($(window).width() <= 600) {
         // show menu on swipe to right

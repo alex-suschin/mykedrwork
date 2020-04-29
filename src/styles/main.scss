@@ -20,7 +20,6 @@ body {
     font-weight: 400;
     color: #252525;
     position: relative;
-    height: 100%;
     background: #fff;
     color: #000;
     -webkit-tap-highlight-color: transparent;
@@ -358,6 +357,10 @@ aside {
     flex-direction: column;
 }
 
+.ov-h {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 1330px) {
     html,
     body {
@@ -457,33 +460,6 @@ aside {
         margin-bottom: 8px;
     }
 }
-
-
-/* F O R M */
-
-@media screen and (max-width: 475px) {
-    .title-form {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 120%;
-        margin-bottom: 10px;
-    }
-    .wrap-form {
-        height: auto;
-        padding: 49px 6px 65px 6px;
-        form {
-            max-width: 100%;
-            border: none;
-            padding: 25px 0px 34px 0px;
-        }
-        .desc-form {
-            margin-bottom: 0;
-        }
-    }
-}
-
-
-/* F O R M */
 
 @media screen and (max-width: 470px) {
     .lk-main {

@@ -122,3 +122,32 @@ form {
 .error {
     color: #DC3545;
 }
+
+@media screen and (max-width: 575px) {
+    .wrap-form {
+        height: auto;
+        padding: 110px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .wrap-form {
+        padding: 110px 6px 65px;
+    }
+    .title-form {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .wrap-form {
+        form {
+            max-width: 100%;
+            border: none;
+            padding: 25px 0px 34px 0px;
+        }
+        .desc-form {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -18,6 +18,10 @@
     }
 }
 
+.last-article-box {
+    position: relative;
+}
+
 .last-article {
     display: flex;
     flex-direction: column;
@@ -33,6 +37,9 @@
 }
 
 .last-article__content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background: #94EBDF;
     padding: 30px 29px 29px 30px;
     max-width: 285px;

@@ -97,18 +97,20 @@
         display: block;
         height: calc(100vh - 81px);
         z-index: 30;
-        transform: translate(-100vw, 0px);
-        transition: .3s;
-        transition-timing-function: ease-out;
         overflow: auto;
         background: #FFFFFF;
         padding: 57px 0 0 24px;
         box-sizing: border-box;
         box-shadow: 22px 49px 94px rgba(0, 0, 0, 0.09);
+        transform: translate(-100vw, 0px);
         -webkit-transform: translate(-100vw, 0px);
         -moz-transform: translate(-100vw, 0px);
         -ms-transform: translate(-100vw, 0px);
         -o-transform: translate(-100vw, 0px);
+    }
+    .mobile-menu-lk-styles {
+        transition-timing-function: ease-out;
+        transition: .3s;
     }
     .menu-lk:before {
         content: 'Меню';

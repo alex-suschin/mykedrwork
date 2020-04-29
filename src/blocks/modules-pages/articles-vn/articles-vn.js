@@ -17,7 +17,7 @@ $(window).on('load resize', function() {
             focusOnSelect: true
         });
 
-        $('.last-article__content').insertAfter($('.last-article'));
+        // $('.last-article__content').insertAfter($('.last-article'));
 
     }
 
