@@ -1,0 +1,310 @@
+.ecomily-box {
+    padding: 0 0 100px 0;
+    .title-vn {
+        margin-bottom: 25px;
+    }
+}
+
+.ecomily-tabs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    z-index: 5;
+    margin-bottom: 31px;
+    a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        color: #8B8EA1;
+        padding: 0 0 29px 0;
+        border-bottom: 2px solid;
+        border-color: transparent;
+        margin-right: 26px;
+    }
+    a.active {
+        color: #142E55;
+        border-color: #142E55;
+    }
+    a:last-child {
+        margin-right: 0;
+    }
+    a:hover {
+        color: #142E55;
+        border-color: #142E55;
+    }
+}
+
+.ecomily-tabs::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #DBDFEA;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.about-ecomily {
+    border-bottom: 1px solid #DBDFEA;
+    padding: 0 0 13px 0;
+    margin-bottom: 45px;
+}
+
+.about-ecomily__item {
+    margin-bottom: 31px;
+}
+
+.about-ecomily__item--title {
+    position: relative;
+    padding: 0 0 0 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #142E55;
+    margin-bottom: 14px;
+}
+
+.about-ecomily__item--title::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #48C8B7;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about-ecomily__item--desc {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #142E55;
+}
+
+.video-ecomily {
+    position: relative;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    margin-bottom: 25px;
+    .play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+        display: block;
+        width: 54px;
+        height: 54px;
+        background-color: rgba(255, 255, 255, 0.62);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50% -50%);
+        -ms-transform: translate(-50% -50%);
+        -o-transform: translate(-50% -50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .play::after {
+        content: '';
+        display: block;
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        background: url(../img/svg/play.svg) no-repeat center;
+    }
+    .play:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+}
+
+.partners-ecomily {}
+
+.partners-ecomily__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    color: #142E55;
+    margin-bottom: 15px;
+}
+
+.partners-ecomily__desc {
+    padding: 0 0 44px 0;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #142E55;
+    border-bottom: 1px solid #DBDFEA;
+    margin-bottom: 48px;
+}
+
+.partners-ecomily-step {
+    background: #FBFBFB;
+    padding: 16px 0 0 0;
+    max-width: 213px;
+    width: 100%;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.partners-ecomily-step-num {
+    position: relative;
+    padding: 13px 15px 12px 25px;
+    font-weight: bold;
+    background: #94EBDF;
+    font-size: 46px;
+    line-height: 100%;
+    color: #142E55;
+}
+
+.partners-ecomily-step-num::after {
+    content: '';
+    display: block;
+    width: 79px;
+    height: 79px;
+    position: absolute;
+    top: 50%;
+    right: -37px;
+    background: url(../img/svg/arr-steps.svg) no-repeat center;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.partners-ecomily-step:last-child .partners-ecomily-step-num::after {
+    content: none;
+}
+
+.partners-ecomily-step-text {
+    padding: 20px 21px 29px 25px;
+}
+
+.partners-ecomily-step-text p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #142E55;
+    margin: 0 0 10px 0;
+}
+
+.partners-ecomily-step-text p:first-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #142E55;
+    margin: 0 0 10px 0;
+}
+
+.partners-ecomily-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 46px;
+}
+
+.qoute {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #142E55;
+    padding: 57px 0 57px 0;
+    margin-bottom: 46px;
+}
+
+.qoute::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    max-width: 339px;
+    width: 100%;
+    height: 27px;
+    background: url(../img/svg/quote.svg) no-repeat center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.qoute::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    max-width: 339px;
+    width: 100%;
+    height: 27px;
+    background: url(../img/svg/quote.svg) no-repeat center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.adds-ecomily {
+    margin-bottom: 50px;
+    margin-top: 52px;
+}
+
+.adds-ecomily--title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    color: #142E55;
+    margin-bottom: 16px;
+}
+
+.adds-ecomily p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #142E55;
+}
+
+.partners-ecomily-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    color: #142E55;
+    margin-bottom: 16px;
+}
+
+.partners-ecomily-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #142E55;
+    margin-bottom: 30px;
+}
